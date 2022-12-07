@@ -1,0 +1,819 @@
+@font-face {
+    font-family: "letrita";
+    src: url(../tipografias/Kimmy\ Design\ -\ MaxwellSans-Light.otf); 
+}
+
+@font-face {
+    font-family: "letrita2";
+    src: url(../tipografias/Kimmy\ Design\ -\ MaxwellSans-DemiBold.otf); 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --logo:#DDA25E;
+    --clarito:#F7F3E8;
+    --verde:#73826F;
+    --terracotaclaro:#A93E25;
+    --moradito:#681626;
+    --verdeocurito:#335245;
+    --azulrey:#013946;
+    --gris:#dadbdf;
+    --gris-azul:#c0cabf;
+    --cafe:#af805f;
+    --cafenaranjita:#cc7749;
+    --cafeclarito:#decbbc;
+}
+
+
+
+nav{
+    background-color: var(--logo);
+}
+
+.navbar img{
+    transform-origin: top left ;
+    transform: scale(1);
+    max-width: 200px;
+}
+
+.navbar-nav .nav-item a{
+    font-weight: 500;
+    color: black;
+    margin-left: 50px;
+    font-size: 1.4em;
+    font-family: "letrita2";
+}
+
+.cata{
+    margin-top: 30px;
+    width: 95%;
+}
+
+#clientes{
+    margin-bottom: 150px;
+}
+
+#clientes h2{
+    margin-top: 90px;
+    font-family: "letrita2";
+    font-size: 2.8em;
+}
+
+#clientes .fabricacion1{
+    margin-top: 50px;
+}
+
+#clientes .fabricacion1 hr{
+    width: 50%;
+    display: inline-block;
+}
+
+#clientes .fabricacion{
+    margin-top: 50px;
+    border-left: 2px solid #01394626;
+}
+
+#clientes .fabricacion hr{
+    width: 50%;
+    display: inline-block;
+}
+#clientes i{
+    font-size: 2.2em;
+    color: #DDA25E;
+    transition: 0.5s;
+}
+
+#clientes i:hover{
+    transform: scale(1.2);
+    font-size: 2.2em;
+    color: #013946;
+}
+
+#clientes h4{
+    margin-top: 20px;
+    font-size: 1.8em;
+    font-family: "letrita2";
+}
+
+#clientes p{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "letrita";
+    font-size: 1.3em;
+}
+
+#clientes button{
+    margin-top: 10px;
+    background-color: #013946;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+}
+
+#clientes button:hover{
+    margin-top: 10px;
+    background-color: #DDA25E;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+}
+
+#clientes button a{
+    text-decoration: none;
+    color: white;
+    font-family: "letrita";
+    font-size: 1.5em;
+}
+
+#clientes{
+    margin-bottom: 150px;
+}
+
+#clientes h2{
+    margin-top: 90px;
+    font-family: "letrita2";
+    font-size: 2.8em;
+}
+
+#clientes .fabricacion1{
+    margin-top: 50px;
+}
+
+#clientes .fabricacion1 hr{
+    width: 50%;
+    display: inline-block;
+}
+
+#clientes .fabricacion{
+    margin-top: 50px;
+    border-left: 2px solid #01394626;
+}
+
+#clientes .fabricacion hr{
+    width: 50%;
+    display: inline-block;
+}
+#clientes i{
+    font-size: 2.2em;
+    color: #DDA25E;
+    transition: 0.5s;
+}
+
+#clientes i:hover{
+    transform: scale(1.2);
+    font-size: 2.2em;
+    color: #013946;
+}
+
+#clientes h4{
+    margin-top: 20px;
+    font-size: 1.8em;
+    font-family: "letrita2";
+}
+
+#clientes p{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "letrita";
+    font-size: 1.3em;
+}
+
+#clientes button{
+    margin-top: 10px;
+    background-color: #013946;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+}
+
+#clientes button:hover{
+    margin-top: 10px;
+    background-color: #DDA25E;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+}
+
+#clientes button a{
+    text-decoration: none;
+    color: white;
+    font-family: "letrita";
+    font-size: 1.5em;
+}
+
+#pie{
+    background-image:url(../imagenes/cocinita.jpg);
+    filter: blur(2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+    width: auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#pie h4{
+    text-align: center;
+    color: white;
+    font-family: "letrita2";
+    font-size: 2.2em;
+}
+
+#pie p{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-family: "letrita";
+    font-size: 1.7em;
+}
+
+#pie .red{
+    margin-top: 50px;
+}
+#pie .redes{
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    color: white;
+    border: none;
+}
+
+#pie .redes i{
+    margin: 10px;
+}
+
+
+#footer{
+   height: auto;
+   padding-top: 10px;
+   padding-bottom: 3px;
+   background-color: #013946;
+   color: white;
+}
+
+#catalogo h2{
+    margin-top: 90px;
+}
+
+#catalogo .fabricacion{
+    margin-top: 90px;
+}
+
+#catalogo h4{
+    margin-top: 15px;
+}
+
+#catalogo p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#catalogo button{
+    background-color: black;
+    padding: 5px;
+    width: 50%;
+    border: none;
+    border-radius: 3px;
+}
+
+#catalogo button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+#review{
+    background-image: url(../imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 90px;
+    padding: 85px;
+    height: 92vh;
+}
+#review h2{
+    margin-top: 10px;
+    text-align: center;
+    font-family: "letrita2";
+    font-size: 2.5em;
+}
+#review .box-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    flex-wrap: wrap;
+}
+
+#review .box-container .box{
+    width: 15rem;
+    padding-bottom: 1rem;
+    text-align: center;
+
+    /* box-shadow: 0 .1rem 1rem #013946; */
+    background-color: #013946;
+    margin: 4rem 1rem ;
+}
+
+#review .box-container .box img{
+    height: 5.5rem;
+    width: 5.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -3rem;
+    border: .4rem solid var(--logo);
+    border-left: .4rem solid #013946;
+    border-bottom: .4rem solid #013946;
+}
+
+#review .box-container .box h3{
+    font-size: 1.5em;
+    color: white;
+    padding: 0.5rem;
+    font-family: "letrita2";
+}
+
+#review .box-container .box p{
+    font-size: 1.5em;
+    color: white;
+    padding:5px;
+    font-family: "letrita";
+}
+
+#review .box-container .box .stars i {
+    font-size: 1.2em;
+    color: #DDA25E;
+    padding: 1.3rem .3rem;
+}
+
+.banner{
+    background-image: url(../imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 10px;
+    padding: 85px;
+    height: 10vh;
+}
+
+.banner p{
+    font-size: 2.5em;
+    font-family: "letrita";
+    align-content: center;
+    text-align: center;
+    margin-top: -60px;
+    color: #013946;
+}
+
+#tips{
+    margin: auto;
+    justify-content: center;
+}
+
+#tips h2{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-family: "letrita2";
+    font-size: 2.5em;
+    text-align: center;
+} 
+
+#tips h5{
+    text-align: center;
+    font-family: "letrita2";
+    font-size: 1.4em;
+}
+
+#tips p{
+    margin-top: 15px;
+    text-align: center;
+    font-family: "letrita";
+    font-size: 1.3em;
+}
+
+#cuidados{
+    margin-top: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+#cuidados h5{
+    text-align: center;
+    font-family: "letrita2";
+    font-size: 1.4em;
+}
+
+#cuidados p{
+    margin-top: 15px;
+    text-align: center;
+    font-family: "letrita";
+    font-size: 1.3em;
+}
+
+#pie2{
+    background-image:url(../imagenes/cocinita.jpg);
+    filter: blur(2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+    width: auto;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#pie2 h4{
+    text-align: center;
+    color: white;
+    font-family: "letrita2";
+    font-size: 2.2em;
+}
+
+#pie2 p{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+    font-family: "letrita";
+    font-size: 1.7em;
+}
+
+#pie2 .red{
+    margin-top: 50px;
+}
+#pie2 .redes{
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    color: white;
+    border: none;
+}
+
+#pie2 .redes i{
+    margin: 10px;
+}
+
+/*---------------------------historia---------------------------*/
+
+#mmedia{
+    padding: 30px;
+    margin:  auto;
+}
+
+#mmedia .video{
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#mmedia .video iframe{
+    width: 50%;
+    height: 100%;
+}
+
+#mmedia .cajas{
+    display: flex;
+}
+
+#mmedia .cajas .caja1{
+    background-color: #DDA25E ;
+}
+
+#mmedia .cajas .caja1 h2{
+    margin-top: 30px;
+    padding: 5px;
+    text-align: center;
+    font-family: "letrita2"
+}
+
+#mmedia .cajas .caja1 p{
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+    font-family: "letrita";
+    font-size: 1.5em;
+}
+
+#mmedia .cajas .caja2 img{
+    width: 100%;
+}
+
+/*-----------------------------ESTILO TABLET-------------------------------*/
+@media screen and (max-width:768px){
+   
+#clientes h2{
+    margin-top: 90px;
+    font-family: "letrita2";
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+
+#clientes .fabricacion1{
+    margin-top: 90px;
+}
+
+#clientes .fabricacion1 hr{
+    width: 50%;
+    display: inline-block;
+}
+
+#clientes .fabricacion{
+    padding-top: 50px;
+}
+
+#clientes .fabricacion hr{
+    width: 50%;
+    display: inline-block;
+}
+#clientes i{
+    font-size: 2.2em;
+    color: #DDA25E;
+    transition: 0.5s;
+}
+
+#clientes i:hover{
+    transform: scale(1.2);
+    font-size: 2.2em;
+    color: #013946;
+}
+
+#clientes h4{
+    margin-top: 20px;
+    font-size: 1.8em;
+    font-family: "letrita2";
+}
+
+#clientes p{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "letrita";
+    font-size: 1.3em;
+}
+
+#clientes button{
+    margin-top: 10px;
+    background-color: #013946;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+}
+
+#clientes button:hover{
+    margin-top: 10px;
+    background-color: #DDA25E;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+}
+
+#clientes button a{
+    text-decoration: none;
+    color: white;
+    font-family: "letrita";
+    font-size: 1.5em;
+}
+
+#clientes{
+    margin-bottom: 150px;
+}
+
+#clientes h2{
+    margin-top: 90px;
+    font-family: "letrita2";
+    font-size: 2.8em;
+}
+
+#clientes .fabricacion1{
+    margin-top: 50px;
+}
+
+#clientes .fabricacion1 hr{
+    width: 50%;
+    display: inline-block;
+}
+
+#clientes .fabricacion{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-left: 2px solid #01394600;
+}
+
+#clientes .fabricacion hr{
+    width: 50%;
+    display: inline-block;
+}
+
+#pie{
+    background-image:url(../imagenes/cocinita.jpg);
+    filter: blur(2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 0px;
+    width: auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#review{
+    background-image: url(../imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 90px;
+    padding: 85px;
+    height: auto;
+}
+#review h2{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: "letrita2";
+    font-size: 2.5em;
+}
+
+
+
+.banner{
+    background-image: url(../imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 10px;
+    padding: 85px;
+    height: 20vh;
+}
+
+.banner p{
+    font-size: 2.1em;
+    font-family: "letrita";
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    color: #013946;
+}
+
+#tips{
+    margin: auto;
+    justify-content: center;
+}
+
+#tips .card{
+    margin: 20px;
+}
+
+#cuidados{
+    margin: auto;
+    justify-content: center;
+    padding-left: 28px;
+}
+
+#cuidados .card{
+    margin: 20px;
+    margin-left: 0px;
+}
+
+#cuidados h5{
+    text-align: center;
+    font-family: "letrita2";
+    font-size: 1.4em;
+}
+
+#cuidados p{
+    margin-top: 15px;
+    text-align: center;
+    font-family: "letrita";
+    font-size: 1.3em;
+}
+
+
+#mmedia{
+    padding: 20px;
+    margin:  auto;
+}
+
+#mmedia .video{
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#mmedia .video iframe{
+    width: 80%;
+    height: 90%;
+}
+
+#mmedia .cajas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mmedia .cajas .caja1{
+    width: 100%;
+    background-color: #DDA25E ;
+}
+
+#mmedia .cajas .caja1 h2{
+    margin-top: 30px;
+    padding: 5px;
+    text-align: center;
+    font-family: "letrita2"
+}
+
+#mmedia .cajas .caja1 p{
+    margin-top: 30px;
+    padding: 30px;
+    text-align: center;
+    font-family: "letrita";
+    font-size: 1.4em;
+}
+
+#mmedia .cajas .caja2 img{
+    width: 200%;
+}
+
+}
+
+/*-----------------------------ESTILO CELULAR-------------------------------*/
+@media screen and (max-width:576px){
+    #clientes p{
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: "letrita";
+        font-size: 1.2em;
+    }
+
+    #mmedia{
+        padding: 20px;
+        margin:  auto;
+    }
+    
+    #mmedia .video{
+        width: 100%;
+        height: 60vh;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    
+    #mmedia .video iframe{
+        width: 100%;
+        height: 80%;
+    }
+    
+    #mmedia .cajas{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #mmedia .cajas .caja1{
+        width: 100%;
+        background-color: #DDA25E ;
+    }
+    
+    #mmedia .cajas .caja1 h2{
+        margin-top: 20px;
+        padding: 5px;
+        text-align: center;
+        font-family: "letrita2"
+    }
+    
+    #mmedia .cajas .caja1 p{
+        margin-top: 10px;
+        padding: 30px;
+        text-align: center;
+        font-family: "letrita";
+        font-size: 1.2em;
+    }
+    
+    #mmedia .cajas .caja2 img{
+        width: 200%;
+    }
+}
